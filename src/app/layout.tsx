@@ -12,6 +12,18 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/img/favicon.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="CS Student @TUM (best-in-tum), SWE Intern @QuantCo, SWE working student @FINN, Studienstiftung and Max-Weber scholarship holder"
+        />
+        <link rel="apple-touch-icon" href="/img/favicon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <title>Robin Holzinger</title>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
