@@ -27,19 +27,19 @@ export default function MainPage() {
 
             <div className="mt-8 mb-4">
               <CtaButton
-                iconPath="/icon/linkedin.svg"
+                iconPath="/ico/linkedin.svg"
                 alt="LinkedIn"
                 bgColor="rgb(0, 127, 177)"
                 href="https://www.linkedin.com/in/robin-holzinger/"
               />
               <CtaButton
-                iconPath="/icon/github.svg"
+                iconPath="/ico/github.svg"
                 alt="GitHub"
                 bgColor="rgb(36, 41, 46)"
                 href="https://www.linkedin.com/in/robin-holzinger/"
               />
               <CtaButton
-                iconPath="/icon/stackoverflow.svg"
+                iconPath="/ico/stackoverflow.svg"
                 alt="StackOverflow"
                 bgColor="rgb(237, 128, 61)"
                 href="https://www.linkedin.com/in/robin-holzinger/"
