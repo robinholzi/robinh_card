@@ -1,19 +1,7 @@
-import Image from 'next/image'
-
-export default function CtaButton({
-  iconPath,
-  bgColor,
-  alt,
-  href
-}: {
-  iconPath: string
-  bgColor: string
-  alt: string
-  href: string
-}) {
+export default function CtaButton({ text, href }: { text: string; href: string }) {
   return (
-    <a href={href} className="btn btn-circle mx-2 border-none" style={{ backgroundColor: bgColor }}>
-      <Image width={128} height={128} src={iconPath} alt={alt} className="w-6 h-6" />
+    <a href={href} className="btn mx-2 border-none color-white bg-green-600">
+      <span className="text-white">{text}</span>
     </a>
   )
 }
