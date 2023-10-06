@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import CtaButton from '@/components/CtaButton/CtaButton'
+import CtaIconButton from '@/components/CtaButton/CtaIconButton'
 import CvElement from '@/components/CvElement/CvElement'
 import HeadfulCard from '@/components/HeadfulCard/HeadfulCard'
 
@@ -26,23 +26,23 @@ export default function MainPage() {
             </div>
 
             <div className="mt-8 mb-4">
-              <CtaButton
+              <CtaIconButton
                 iconPath="/ico/linkedin.svg"
                 alt="LinkedIn"
                 bgColor="rgb(0, 127, 177)"
                 href="https://www.linkedin.com/in/robin-holzinger/"
               />
-              <CtaButton
+              <CtaIconButton
                 iconPath="/ico/github.svg"
                 alt="GitHub"
                 bgColor="rgb(36, 41, 46)"
-                href="https://www.linkedin.com/in/robin-holzinger/"
+                href="https://github.com/robinholzi"
               />
-              <CtaButton
+              <CtaIconButton
                 iconPath="/ico/stackoverflow.svg"
                 alt="StackOverflow"
                 bgColor="rgb(237, 128, 61)"
-                href="https://www.linkedin.com/in/robin-holzinger/"
+                href="https://stackoverflow.com/users/7307260/nerotyc"
               />
             </div>
           </HeadfulCard>
@@ -51,11 +51,11 @@ export default function MainPage() {
       <div className="relative w-full text-center pb-8 text-sm xs:text-base">
         <span className="inline-block justify-center">
           Copyright © {new Date().getFullYear()}{' '}
-          <Link href="/" className="text-white">
+          <Link href="https://www.linkedin.com/in/robin-holzinger/" className="text-white">
             Robin Holzinger
           </Link>{' '}
           |{' '}
-          <Link href="/" className="text-white">
+          <Link href="/imprint" className="text-white">
             Imprint
           </Link>
         </span>
