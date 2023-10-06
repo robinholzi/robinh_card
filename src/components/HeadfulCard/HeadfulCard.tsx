@@ -21,7 +21,6 @@ export default function HeadfulCard({
           className="w-full h-auto z-0 sm:rounded-t-[64px]"
           width={512}
           height={256}
-          // sizes="(max-width: 512px) 100px"
         />
         <div className="absolute inset-0 bg-black opacity-5 sm:rounded-t-[64px]"></div>
       </div>
